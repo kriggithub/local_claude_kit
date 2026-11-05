@@ -1,9 +1,11 @@
 #!/bin/bash
-# Setup script for a WORK cloud environment (Kratos, lychee, …) — paste into
+# Setup script for Kurt's own WORK cloud environments (e.g. kratos) — paste into
 # claude.ai/code → environment → Edit → setup script. Installs claude-kit into
 # the session's ~/.claude before Claude starts.
 #
-# NEVER add this to the "clean" filming environment.
+# NEVER add this to the "clean" filming environment, or to an environment
+# used for someone else's project (e.g. lychee — Angell's): the kit tells
+# Claude the person it's talking to is Kurt.
 #
 # If the kit repo is private and this clone fails in the setup script, either
 # make the kit repo public (it holds no secrets) or enable the needed skills

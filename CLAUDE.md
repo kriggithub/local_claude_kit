@@ -1,8 +1,9 @@
 # Kurt - personal instructions (claude-kit)
 
-_Loaded in every Claude Code session on Kurt's machines and in his "work"
-cloud environments. A project's own `CLAUDE.md` adds to this; where they
-disagree, the project wins. Never loaded in the filming clean room._
+_Loaded in every Claude Code session on Kurt's machines and in his own
+"work" cloud environments. A project's own `CLAUDE.md` adds to this; where
+they disagree, the project wins. Never loaded in the filming clean room or in
+environments for other people's projects (e.g. Angell's lychee)._
 
 ## Who
 

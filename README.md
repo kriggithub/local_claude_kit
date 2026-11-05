@@ -35,9 +35,15 @@ It copies `CLAUDE.md` and the skills into `~/.claude/` (Windows:
 kit's is backed up first. `-Uninstall` / `--uninstall` removes exactly what
 the kit installed.
 
-**Cloud sessions** can't see a computer's `~/.claude`. For each *work*
-environment (Kratos, lychee), paste `cloud/setup.sh` into the environment's
-setup script.
+**Cloud sessions** can't see a computer's `~/.claude`. For each of Kurt's own
+*work* environments (e.g. kratos), paste `cloud/setup.sh` into the
+environment's setup script.
+
+**Not for other people's projects.** The kit says "this is Kurt, talk to him
+like this", so it doesn't go in the lychee environment (Angell's project has
+its own `CLAUDE.md`). Someone else who wants their own kit gets their own
+copy of this structure with their own `CLAUDE.md` — `/templatize` can make a
+blank starter.
 
 ## The clean room (filming)
 
