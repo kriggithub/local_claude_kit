@@ -19,10 +19,4 @@ kit's own skills.
    task") fires everywhere the kit is installed. Code-style skills are kept
    out of the filming clean room by design.
 
-## Wanted
-
-- **Ponytail** ("write less code"). Not added yet: as of 2026-11-05 GitHub
-  shows many copies in other people's repos and no clearly official one.
-  Get it from ponytail.dev's own instructions, then follow the rules above.
-  Independent test: JetBrains measured ~15% less code / ~10% lower cost over
-  80 tasks (the authors claim 54% less code).
+Installed and pinned: see `SOURCES.md`.
