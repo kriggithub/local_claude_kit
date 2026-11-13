@@ -11,9 +11,10 @@
   log each turn to a local CSV by default, offer an optional webhook and can
   auto-update, which rule 4 forbids. Those files were skimmed and searched for
   this decision, not reviewed line by line. Review them first if that changes.
-- **What that costs:** Ponytail loads when Claude judges a task fits, or on
-  `/ponytail`, instead of being injected every session and into subagents. The
-  level lasts only for the session.
+- **What that costs:** no hook injects it, so the kit's `CLAUDE.md` tells
+  Claude to load `/ponytail` (full) at every session start (always on since
+  2026-11-13). It relies on Claude following that line, and it doesn't reach
+  subagents. A level change lasts only for the session.
 - **`/ponytail-help` describes the plugin:** its band, auto-activation, config
   and auto-update sections don't apply here. Don't enable auto-update.
 - **Savings claims:** `/ponytail-gain` shows the authors' own benchmark (53%
