@@ -36,6 +36,13 @@ technical choices in plain language.
   holds a project's money-moving keys. Where things live:
   `kratos/docs/system-map.md`.
 
+## Ponytail — always on
+
+At the start of every session, before the first reply, invoke the `ponytail`
+skill (level: full) and follow it for the whole session. Kurt can switch level
+(`/ponytail lite|ultra`) or turn it off ("stop ponytail" / "normal mode") for
+that session only; the next session starts on full again.
+
 ## New things
 
 Ask the three questions before deciding where something goes:
